@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const url = 'mongodb://mLabMongoDBdb:mLabMongoDBdb@ds143039.mlab.com:43039/note-taker';
+const url = 'mongodb://dbuser:dbpassword@ds143039.mlab.com:43039/note-taker';
 
 mongoose.connect(url, err => {
   if(err) {
